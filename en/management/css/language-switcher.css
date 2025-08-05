@@ -13,17 +13,17 @@
     font-weight: 500;
     transition: all 0.3s ease;
     color: #fff;
-    background-color: rgba(255, 206, 108, 0.6);
+    background-color: rgba(255, 206, 108, 0.45);
     border-radius: 4px;
 }
 
 .language-switcher button:hover {
-    background-color: rgba(255, 206, 108, 0.75);
+    background-color: rgba(255, 206, 108, 0.9);
 }
 
 .language-switcher button:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(255, 206, 108, 0.75);
+    box-shadow: 0 0 0 2px rgba(255, 206, 108, 0.9);
 }
 
 .language-switcher .lang-active {
@@ -31,5 +31,5 @@
 }
 
 .language-switcher .lang-active:hover {
-    background-color: rgba(255, 206, 108, 0.95);
+    background-color: rgba(255, 206, 108, 1);
 }
